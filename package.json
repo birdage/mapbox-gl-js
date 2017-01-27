@@ -16,8 +16,6 @@
     "@mapbox/unitbezier": "^0.0.0",
     "brfs": "^1.4.0",
     "bubleify": "^0.5.1",
-    "csscolorparser": "^1.0.2",
-    "csscolorparser": "~1.0.2",
     "earcut": "^2.0.3",
     "feature-filter": "^2.2.0",
     "geojson-rewind": "^0.1.0",
