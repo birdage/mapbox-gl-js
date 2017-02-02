@@ -14,6 +14,7 @@ if [[ ! -d ~/.yarn ]]; then
     curl -o- -L https://yarnpkg.com/install.sh | bash
 fi
 
+# ignore postinstall script to install style-spec deps using Yarn rather than NPM
 ~/.yarn/bin/yarn --ignore-scripts
 cd js/style-spec && ~/.yarn/bin/yarn
 
